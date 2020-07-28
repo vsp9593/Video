@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Video Player</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/video.js"></script>
+		
+	</head>
+	<body>
+		<div id="input">
+			<input type="url" placeholder="Enter URL" id="vdurl"></input>
+			<input type="Button" value="Play" onclick="play()" class="button"></input>
+		</div>
+		<hr>
+		<div id="video">
+			<iframe id="plyr" width="560" height="315" 
+			frameborder="0" allow="accelerometer; autoplay; 
+			encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+	</body>
+</html>

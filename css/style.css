@@ -1,0 +1,21 @@
+#video{
+		width:100%;
+		text-align:center;
+		display:none;
+		margin-top:2%;
+}
+#vdurl,.button{
+	width:70%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+.button{
+	width:20%;
+	background-color:#ff0000;
+	color:#ffffff;
+	font-weight:bold;
+	border:none;
+	font-size:100%;
+	border-radius:2px;
+}
